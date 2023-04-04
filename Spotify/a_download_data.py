@@ -3,8 +3,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
 # Spotify Developer Account Credentials
-cid = '9dea5ea9eff74411a9c45db73d1ba08b'
-secret = '2e47c140ad124adeb623e15ce0c2a6bd'
+cid = '' #MODIFY
+secret = '' #MODIFY
 
 # Number columns, used for the recommender
 number_cols = ['valence', 'acousticness', 'danceability', 'duration_ms', 'energy',
