@@ -16,13 +16,8 @@ if __name__ == '__main__':
     
     for item in numeric_variables:
         promedios[item] = np.mean(mis_canciones[item])
-    
-    #Imprimir promedios
-    #for x in promedios:
-    #    print(str(x) + ' => ' + str(promedios[x]))
-        
-    # Implementar una funcion que calcule la distancia de cada cancion en el df compartido contra el diccionario que
-    # hicieron
+
+    # Implementar una funcion que calcule la distancia de cada cancion en el df compartido contra el diccionario
     df.loc[:, 'Distance'] = 0
     
     for item in numeric_variables:
